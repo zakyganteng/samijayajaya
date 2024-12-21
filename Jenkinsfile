@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout dari Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/yourusername/your-repo.git'
+                git branch: 'master', url: 'https://github.com/zakyganteng/samijayajaya.git'
             }
         }
         stage('Ambil Image dari Dockerhub') {
